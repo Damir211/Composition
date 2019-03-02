@@ -1,0 +1,37 @@
+.header{
+	width: 1000px;
+	margin:auto;
+	display: flex;
+	height: 135px;
+	align-items: center;
+	justify-content: space-between;
+}
+.menu i{
+	display: none;
+}
+@media only screen and (max-width: 999px){
+	.header{
+		width: 768px;
+	}
+	.menu a{
+		display: none;
+	}
+	.menu i{
+		display: block;
+	}
+}
+@media only screen and (max-width: 767px){
+	.header{
+		width: 600px;
+	}
+}
+@media only screen and (max-width: 599px){
+	.header{
+		width: 480px;
+	}
+}
+@media only screen and (max-width: 479px){
+	.header{
+		width: 320px;
+	}
+}

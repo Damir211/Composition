@@ -1,0 +1,20 @@
+slider:{
+	list:[
+		{
+			url:'static/img/assets/slider/1.png',
+			alt:'img'
+		},{
+			url:'static/img/assets/slider/2.png',
+			alt:'img'
+		},{
+			url:'static/img/assets/slider/3.png',
+			alt:'img'
+		},{
+			url:'static/img/assets/slider/4.png',
+			alt:'img'
+		},{
+			url:'static/img/assets/slider/5.png',
+			alt:'img'
+		}
+	]
+}

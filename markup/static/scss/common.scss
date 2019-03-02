@@ -1,0 +1,36 @@
+// Common styles of the project
+*{
+	font-family: georgia-r;
+}
+.page__footer{
+	width: 100%;
+	background-color: rgb(226,226,226);
+}
+.page__header{
+	width: 100%;
+	border-bottom: 1px solid rgb(226,226,226);
+}
+.page__wrapper{
+	width: 960px;
+	margin: auto;
+}
+@media only screen and (max-width: 999px){
+	.page__wrapper{
+		width: 768px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.page__wrapper{
+		width: 600px;
+	}
+}
+@media only screen and (max-width: 599px){
+	.page__wrapper{
+		width: 480px;
+	}
+}
+@media only screen and (max-width: 479px){
+	.page__wrapper{
+		width: 320px;
+	}
+}

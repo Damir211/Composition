@@ -1,0 +1,28 @@
+<div class="footer__info">
+	<div class="footer__company">
+		<h3 class="footer__button">{{blogName.Company}}</h3>
+		<div>
+			<p>{{info.location.name}}</p>
+			<p>{{info.location.street}}</p>
+			<p>{{info.location.town}}</p>
+			<p>{{info.location.postcode}}</p>
+		</div>
+		<div>
+			<p>{{info.contact.tel}}</p>
+			<p>{{info.contact.fax}}</p>
+			<p>{{info.contact.email}}<a href="{{info.contact.emailUrl}}">{{info.contact.emailText}}</a></p>
+		</div>
+		<div>
+			<p class="jobtitle">{{info.jobday.title}}</p>
+			<p>{{info.jobday.work1}}</p>
+			<p>{{info.jobday.work2}}</p>
+		</div>
+	</div>
+	<div class="footer__contact">
+		<h3 class="footer__button">{{blogName.Contact}}</h3>
+		<input type="text" class="inputSmall" placeholder="Name">
+		<input type="email" class="inputSmall" placeholder="Email">
+		<textarea placeholder="Message"></textarea> 
+		<button>SUBMIT</button>
+	</div>
+</div>

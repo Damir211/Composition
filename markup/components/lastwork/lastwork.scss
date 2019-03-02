@@ -1,0 +1,64 @@
+.lastwork__img{
+	width: 300px;
+	height: 160px;
+	margin: 26px 0;
+}
+#lastwork__size{
+	max-height: 212px;
+}
+.lastwork{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: space-between;
+	border-top: 1px solid rgb(226,226,226);
+	padding: 26px 0;
+}
+.lastwork__logo{
+	position: absolute;
+	font-size: 18px;
+	color:#fff;
+	background-color: rgb(226,73,75);
+	padding: 7px 0;
+	text-align: center;
+	border-radius: 10px;
+	top:-19px;
+	left: 50%;
+	width: 176px;
+	margin-left: -88px;
+}
+.lastwork__container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	overflow: hidden;
+	max-height: 5000px;
+	transition: all 2s;
+}
+.lastwork__button{
+	position: absolute;
+	top:-20px;
+	right: 20px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	background-color: rgb(226,73,75);
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+}
+@media only screen and (max-width: 999px){
+	.lastwork__container{
+		justify-content: space-around;
+	}
+}
+@media only screen and (max-width: 767px){
+	.lastwork__img{
+		margin:26px 26px;
+	}
+}
+

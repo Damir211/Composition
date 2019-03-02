@@ -1,0 +1,33 @@
+<div class="services">
+
+	<div class="services__logo">
+		{{head}}
+	</div>
+	<div class="services__button services__buttonUp">
+		<i class="fas fa-angle-double-up"></i>
+	</div>
+	<div class="services__button services__buttonDown">
+		<i class="fas fa-angle-double-down"></i>
+	</div>
+	<div class="services__container" id="services__size">
+	{{#each list}}
+	<div class="services__block">
+		<div class="services__head">
+			<div class="services__img">
+				<img src="{{urlImg}}" alt="{{altImg}}">
+			</div>
+			<h2>
+				{{headText}}
+			</h2>
+		</div>
+		<p>
+		{{text}}
+		</p>
+		<a href="{{urlLink}}">
+		{{textLink}}
+		</a>
+	</div>
+	{{/each}}
+	</div>
+
+</div>

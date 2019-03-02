@@ -1,0 +1,12 @@
+.footer__copyright{
+	display: flex;
+	min-height: 60px;
+	justify-content: space-between;
+	border-top: 1px solid #fff;
+	flex-wrap: wrap;
+	p{
+		line-height: 36px;
+		font-size: 12px;
+		color:rgb(153,153,153);
+	}
+}

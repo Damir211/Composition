@@ -1,0 +1,5 @@
+head: {
+    defaults: {
+        title: 'Composition'
+    }
+}

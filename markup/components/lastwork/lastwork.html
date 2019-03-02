@@ -1,0 +1,18 @@
+<div class="lastwork">
+	<div class="lastwork__logo">
+		{{head}}
+	</div>
+	<div class="lastwork__button lastwork__buttonUp">
+		<i class="fas fa-angle-double-up"></i>
+	</div>
+	<div class="lastwork__button lastwork__buttonDown">
+		<i class="fas fa-angle-double-down"></i>
+	</div>
+	<div class="lastwork__container" id="lastwork__size">
+	{{#each img}}
+		<div class="lastwork__img">
+			<img src="{{url}}" alt="{{alt}}">
+		</div>
+	{{/each}}
+	</div>
+</div>

@@ -1,0 +1,20 @@
+.logo{
+	margin-left: 20px;
+	h1{
+	font-size: 26px;
+	color: rgb(80, 80, 80);
+	font-weight: normal;
+	margin: 0 0 16px 0;
+	}
+	h1:first-letter{
+	font-size: 36px;
+	}
+	p{
+	color: rgb(102, 102, 102);
+	font-size: 12px;
+	margin-bottom: 0;
+	}
+}
+.logo:hover{
+	cursor: pointer;
+}

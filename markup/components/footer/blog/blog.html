@@ -1,0 +1,18 @@
+<div class="footer__blog">
+	<h3 class="footer__button">{{blogName.Latest}}</h3>
+{{#each blog}}
+	<div class="post">
+		<div class="post__img">
+			<img src="{{imgUrl}}" alt="{{imgAlt}}">
+		</div>
+		<div class="post__text">
+			<p class="post__name">
+				{{namePost}}
+			</p>
+			<p>
+				{{textPost}}
+			</p>
+		</div>
+	</div>
+{{/each}}
+</div>

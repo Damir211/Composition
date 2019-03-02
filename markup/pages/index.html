@@ -1,0 +1,35 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+
+    <head>
+        {{> head/head head.defaults}}
+    </head>
+
+    <body class="page">
+        {{> slidemenu/slidemenu slidebar}}
+        <div canvas="container"> 
+            <header class="page__header">
+            	{{> header/header header}}
+            </header>
+            <section class="page__wrapper">
+                <!-- Include your modules here -->
+                {{> shout/shout shout}}
+                {{> slider/slider slider}}
+                {{> services/services services}}
+                {{> team/team team}}
+                {{> lastwork/lastwork lastwork}}
+
+            </section>
+
+            <footer class="page__footer">
+                {{> footer/footer footer}}
+            </footer>
+        </div>
+        <script src="%=static=%js/separate-js/svg4everybody.min.js"></script>
+        <script>svg4everybody();</script>
+
+        <!-- Main scripts. You can replace it, but I recommend you to leave it here     -->
+        <script src="%=static=%js/main%=hash=%%=min=%.js"></script>
+    </body>
+
+</html>
